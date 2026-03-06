@@ -1,0 +1,12 @@
+{
+  "domain": "homekit_avahi_proxy",
+  "name": "HomeKit Avahi Proxy",
+  "codeowners": ["@engedics"],
+  "config_flow": true,
+  "single_config_entry": true,
+  "documentation": "https://github.com/engedics/ha-homekit-avahi-proxy",
+  "issue_tracker": "https://github.com/engedics/ha-homekit-avahi-proxy/issues",
+  "dependencies": ["homekit", "zeroconf"],
+  "version": "0.1.0",
+  "iot_class": "calculated"
+}

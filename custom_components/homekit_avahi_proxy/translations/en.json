@@ -1,0 +1,17 @@
+{
+  "config": {
+    "error": {
+      "not_found": "The target path does not exist, make sure it is mounted and readable.",
+      "not_directory": "The target path is not a directory, make sure it is not a file or a symlink.",
+      "not_writable": "The path is not writable, make sure the mount settings are correct.",
+      "unknown": "Unknown error, please check logs."
+    },
+    "step": {
+      "user": {
+        "data": {
+          "path": "Avahi services directory"
+        }
+      }
+    }
+  }
+}

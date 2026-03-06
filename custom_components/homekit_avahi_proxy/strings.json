@@ -1,0 +1,18 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HomeKit Avahi Proxy",
+        "data": {
+          "path": "[%key:common::config_flow::data::path%]"
+        }
+      }
+    },
+    "error": {
+      "not_found": "[%key:common::config_flow::error::not_exist%]",
+      "not_directory": "[%key:common::config_flow::error::not_exist%]",
+      "not_writable": "[%key:common::config_flow::error::not_writable%]",
+      "unknown": "[%key:common::config_flow::error::unknown%]"
+    }
+  }
+}
