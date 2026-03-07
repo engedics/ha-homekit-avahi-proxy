@@ -9,6 +9,7 @@ The integration listens for the addition, update, and removal of HomeKit Bridge 
 1. Make sure mDNS is enabled in System → Network → Network Configuration → Settings.
 2. Edit the Home Assistant app.
 3. In `Storage Configuration → Additional Storage`, add a new bind mount for /etc/avahi/services. `Mount path` can be arbitrary, but will need to be matched during integration setup.
+
 ![TrueNAS storage settings](assets/truenas_storage.png "TrueNAS storage settings")
 
 > [!IMPORTANT]
