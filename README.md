@@ -1,4 +1,4 @@
-# HomeKit Avahi Proxy
+# Home Assistant HomeKit Bridge to Avahi Proxy
 
 A Home Assistant custom component for aiding HomeKit Bridge discovery within TrueNAS or other network-restricted environments by translating the HomeKit Bridge Zeroconf entries into Avahi service files and placing them into the (mounted) services directory.
 
@@ -25,6 +25,10 @@ Make sure to mount the Avahi services folder of the host (usually `/etc/avahi/se
 ## Installation
 
 ### HACS (Recommended)
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=engedics&repository=ha-homekit-avahi-proxy&category=integration)
+
+-- or --
 
 1. Add this repository to HACS as a custom repository
 2. Search for "HomeKit Bridge Avahi Proxy" in HACS
